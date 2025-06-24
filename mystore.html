@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en"</html>
+<head>
+    <meta charset="UTF-8 " />
+    <meta name="viewport" content="width=device-width, initial-scale=2.0" />
+    <title>MyStore</title>
+    <style>
+        .products {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 1rem;
+    padding: 1rem;
+             }
+        body {
+            margin: 0;
+            font-family: Airal, sans-serif;
+            background-color: #ffffff;
+            color: #2c2c2c;
+             }
+             header {
+                background-color: #e0f7fa;
+                padding: 1rem 2rem;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+             }
+             .logo {
+                font-size: 1.5rem;
+                font-weight: bold;
+                color: #007acc;
+             }
+             .search-bar input {
+                padding: 0.5rem;
+                border-radius: 4px;
+                border: 1px solid #ccc;
+                width: 300px;
+             }
+             nav {
+                margin: 1rem 2rem;
+                text-align: right;
+             }
+            nav a {
+                margin-left: 1rem;
+                text-decoration: none;
+                color: #007acc;
+                font-weight: bold;
+            }
+
+            .product {
+                display: grid;
+                grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+                gap: 1.5rem;
+                padding: 1rem;
+            }
+            .product-card {
+                background-color: #ffffff;
+                border: 1px solid #ddd;
+                border-radius: 4px;
+                padding: 1rem;
+                text-align: center;
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+            }
+            .product-card img {
+                max-width: 50%;
+                height: 150px;
+                object-fit: cover;
+                margin-bottom: 0.5rem;
+            }
+            .product-card h3 {
+                margin: 0.5rem 0;
+                font-size: 1.1rem;
+            }
+            .product-card p {
+                color: #00796b;
+                font-weight: bold;
+            }
+    </style>
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">Catch Your Drip🛍️</div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">product</a>
+            <a href="#">about</a>
+        </nav>
+    </header>
+    <header>
+        <div class="search-bar">
+            <input type="text" placeholder="Search product...."/>
+        </div>
+    </header>
+    <nav>
+       <a href="#">Login</a>
+       <a href="#">SignUp</a>
+       </nav>    
+    <main class="container"
+    <h1>Welcome to MyStore</h1>
+    <section class="products">
+        <div class="product-card">
+            <img src="c:\Users\hp\Downloads\t1.jpg" alt="Lymio Casual Regular Fit Shirt for Men| Regular Fit Shirt for Men"/>
+            <h3>Lymio Casual Regular Fit Shirt for Men</h3>
+            <p>$10</p>
+            <button class="BuyNow-button">Buy Now</button>
+            <style>
+              .BuyNow-button{
+                background-color: rgb(238, 238, 15);
+                color: black;
+                border: none;
+                width: 100px;
+                height: 35px;
+                border-radius: 10px;
+                cursor: pointer;
+              }  
+              .BuyNow-button:hover {
+                opacity: 0.7;
+              }
+              .BuyNow-button:active {
+                opacity: 0.4;
+              }
+            </style>
+        </div>
+        <div class="product-card">
+        <img src="c:\Users\hp\Downloads\t2.jpg" alt="Leriya Fashion Men's Textured Regular Fit Casual Fancy Full Sleeve Shirt"/>
+        <h3>Leriya Fashion Men's Textured Regular Fit Casual Fancy Full Sleeve Shirt</h3>
+        <p>$15.00</p>
+        <button class="BuyNow-button">Buy Now</button>
+            <style>
+              .BuyNow-button{
+                background-color: rgb(238, 238, 15);
+                color: black;
+                border: none;
+                width: 100px;
+                height: 35px;
+                border-radius: 10px;
+                cursor: pointer;
+              }  
+              .BuyNow-button:hover {
+                opacity: 0.7;
+              }
+              .BuyNow-button:active {
+                opacity: 0.4;
+              }
+            </style>
+        </div>
+        <div class="product-card">
+            <img src="c:\Users\hp\Downloads\t3.jpg" alt="TAGDO Men's Chain Polo Shirt"/>
+            <h3>TAGDO Men's Chain Polo Shirt</h3>
+            <p>$20.00</p>
+            <button class="BuyNow-button">Buy Now</button>
+            <style>
+              .BuyNow-button{
+                background-color: rgb(238, 238, 15);
+                color: black;
+                border: none;
+                width: 50px;
+                height: 35px;
+                border-radius: 10px;
+                cursor: pointer;
+              }  
+              .BuyNow-button:hover {
+                opacity: 0.7;
+              }
+              .BuyNow-button:active {
+                opacity: 0.4;
+              }
+             </style> 
+             </div>
+             <div class="product-card">
+             <img src="c:\Users\hp\Downloads\t4.jpg" alt="Korean Double Zip Oversized Shirt"/>
+             <h3>Korean Double Zip Oversized Shirt</h3>
+             <p>$12.00</p>
+             <button class="BuyNow-button">Buy Now</button>
+             <style>
+              .BuyNow-button{
+                background-color: rgb(238, 238, 15);
+                color: black;
+                border: none;
+                width: 100px;
+                height: 35px;
+                border-radius: 10px;
+                cursor: pointer;
+              }  
+              .BuyNow-button:hover {
+                opacity: 0.7;
+              }
+              .BuyNow-button:active {
+                opacity: 0.4;
+              }
+             </style>
+             </div>
+             <div class="product-card">
+             <img src="c:\Users\hp\Downloads\t5.webp" alt="Allen Solly Men Solid Polo T-Shirt"/>
+             <h3>Allen Solly Men Solid Polo T-Shirt</h3>
+             <p>$18.00</p>
+             <button class="BuyNow-button">Buy Now</button>
+             <style>
+              .BuyNow-button{
+                background-color: rgb(238, 238, 15);
+                color: black;
+                border: none;
+                width: 100px;
+                height: 35px;
+                border-radius: 10px;
+                cursor: pointer;
+              }  
+              .BuyNow-button:hover {
+                opacity: 0.7;
+              }
+              .BuyNow-button:active {
+                opacity: 0.4;
+              }
+             </style>
+             </div>
+             <div class="product-card">
+             <img src="c:\Users\hp\Downloads\t6.webp" alt="Beyoung Grey Textured Jacquard Shirt"/>
+             <h3>Beyoung Grey Textured Jacquard Shirt</h3>
+             <p>$22.00</p>
+             <button class="BuyNow-button">Buy Now</button>
+             <style>
+              .BuyNow-button{
+                background-color: rgb(238, 238, 15);
+                color: black;
+                border: none;
+                width: 100px;
+                height: 35px;
+                border-radius: 10px;
+                cursor: pointer;
+              }  
+              .BuyNow-button:hover {
+                opacity: 0.7;
+              }
+              .BuyNow-button:active {
+                opacity: 0.4;
+              }
+            </style>
+        </div>
+</main>
+</body>
+</html>
